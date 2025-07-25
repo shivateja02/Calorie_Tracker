@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7f9;
+    color: #333;
+    line-height: 1.4;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1, h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 12px;
+    color: #2c3e50;
+}
+
+/* Form styling */
+form label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    color: #555;
+    font-size: 12px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: border 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+/* Button styling */
+button, input[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #1f6391;
+}
+
+/* Result messages */
+.message {
+    text-align: center;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #2980b9;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 13px;
+}
+
+/* Table for logs (if any) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
